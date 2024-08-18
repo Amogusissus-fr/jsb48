@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    box-sizing: border-box
+}
+
+.father {
+    width: 300px;
+    min-height: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid black
+
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.items .item {
+    padding: 20px;
+}
+
+.items .item:hover {
+    background-color: grey;
+    cursor: pointer;
+    width: 300px;
+}
+
+.logo:hover {
+    background-color: grey;
+    cursor: pointer;
+    width: 300px;
+}
+
+.settings:hover {
+    background-color: grey;
+    cursor: pointer;
+    width: 300px;
+}
+
+
+.div1 {
+    border: 2px solid black
+}
+
+input {
+    width: 200px;
+}

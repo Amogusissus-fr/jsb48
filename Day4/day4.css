@@ -1,0 +1,50 @@
+.container {
+    width: 600px;
+    height: 600px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-betwee;
+
+
+}
+
+.div1 {
+    width: 100%;
+    height:49%;
+    background-color: aqua ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* .div2 {
+    width: 20%;
+    height: 100px;
+    background-color: red ;
+
+} */
+
+.div3 {
+    width: 100%;
+    height: 50%;
+    background-color: green ;
+        display: flex;
+    justify-content: space-between;
+
+}
+
+
+.div1 div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.div3 div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
